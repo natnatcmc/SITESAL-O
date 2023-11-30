@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2? family= Gabarito:wght@400;500;600;700 & display=swap');
+
+* {
+    font-family: 'Gabarito', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+    color: #172317;
+    text-align: center;
+}
+
+::selection {
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+:root {
+    --container-color: #1a1e21;
+    --second-color: #ffde59;
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    background: var(--container-color);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+
+.logo span {
+    color: var(--second-color);
+}
+
+.login {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 4px;
+    background: var(--second-color);
+    color: var(--bg-color);
+}
+
+.text-box {
+    width: 75%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 13%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-top: 50px;
+}
+
+.text span {
+    font-weight: 600;
+    float: left;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 1.3rem;
+    border: 1px solid #a6a6a6;
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: var(--container-color);
+    color: white;
+    padding: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footerLG {
+    color: var(--bg-color);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+.footerLG span {
+    color: var(--second-color);
+}
+
+.frasePROMO {
+    color: var(--bg-color);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text img{
+    width: 500PX;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
